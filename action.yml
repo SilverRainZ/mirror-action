@@ -5,6 +5,9 @@ branding:
   color: green
 
 inputs:
+  REMOTE_NAME:
+    description: "The remote ref name to use. 'mirror' by default. Useful to avoid conflicts with existing remotes."
+    required: false
   REMOTE:
     description: "The remote repository e.g. https://github.com/octocat/foo.git or git@github.com:octocat/foo.git"
     required: false
